@@ -10,13 +10,12 @@ using System.Windows.Forms;
 
 namespace Durak
 {
-    public partial class Game : Form
+    public partial class RuleGame : Form
     {
-        public Game()
+        public RuleGame()
         {
             InitializeComponent();
         }
 
-        
     }
 }

@@ -93,6 +93,26 @@ namespace Durak.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fon_600kh600 {
+            get {
+                object obj = ResourceManager.GetObject("fon_600kh600", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fon_800kh800 {
+            get {
+                object obj = ResourceManager.GetObject("fon_800kh800", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pik_cards {
             get {
                 object obj = ResourceManager.GetObject("pik-cards", resourceCulture);
@@ -106,6 +126,16 @@ namespace Durak.Properties {
         internal static System.Drawing.Bitmap wallpaper_poker_03 {
             get {
                 object obj = ResourceManager.GetObject("wallpaper_poker_03", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap фон_для_игры_800х800 {
+            get {
+                object obj = ResourceManager.GetObject("фон для игры 800х800", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

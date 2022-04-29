@@ -10,31 +10,27 @@ using System.Windows.Forms;
 
 namespace Durak
 {
-    public partial class FParam : Form
+    public partial class Menu : Form
     {
-        public FParam()
+        public Menu()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btNGame_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btResume_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        private void btParam_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void checkBox2_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
