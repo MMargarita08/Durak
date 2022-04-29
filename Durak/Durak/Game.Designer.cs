@@ -34,6 +34,7 @@ namespace Durak
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.btExit = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -57,6 +58,7 @@ namespace Durak
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 77.05783F));
             this.tableLayoutPanel1.Controls.Add(this.button2, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.button3, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.btExit, 0, 3);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
@@ -91,6 +93,19 @@ namespace Durak
             this.button3.Text = "Беру";
             this.button3.UseVisualStyleBackColor = true;
             // 
+            // btExit
+            // 
+            this.btExit.BackgroundImage = global::Durak.Properties.Resources._1612703153_8_p_zelenii_fon_poker_13;
+            this.btExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btExit.ForeColor = System.Drawing.Color.Salmon;
+            this.btExit.Location = new System.Drawing.Point(3, 601);
+            this.btExit.Name = "btExit";
+            this.btExit.Size = new System.Drawing.Size(87, 40);
+            this.btExit.TabIndex = 2;
+            this.btExit.Text = "Выход";
+            this.btExit.UseVisualStyleBackColor = true;
+            this.btExit.Click += new System.EventHandler(this.btExit_Click);
+            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(3, 800);
@@ -122,5 +137,6 @@ namespace Durak
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btExit;
     }
 }

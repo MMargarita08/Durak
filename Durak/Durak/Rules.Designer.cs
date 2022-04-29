@@ -30,7 +30,7 @@ namespace Durak
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btExit = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -46,18 +46,19 @@ namespace Durak
             this.label1.TabIndex = 0;
             this.label1.Text = "Правила игры";
             // 
-            // button1
+            // btExit
             // 
-            this.button1.AutoSize = true;
-            this.button1.BackgroundImage = global::Durak.Properties.Resources._1612703153_8_p_zelenii_fon_poker_13;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.ForeColor = System.Drawing.Color.Salmon;
-            this.button1.Location = new System.Drawing.Point(219, 512);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(126, 55);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Выход";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btExit.AutoSize = true;
+            this.btExit.BackgroundImage = global::Durak.Properties.Resources._1612703153_8_p_zelenii_fon_poker_13;
+            this.btExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btExit.ForeColor = System.Drawing.Color.Salmon;
+            this.btExit.Location = new System.Drawing.Point(219, 512);
+            this.btExit.Name = "btExit";
+            this.btExit.Size = new System.Drawing.Size(126, 55);
+            this.btExit.TabIndex = 1;
+            this.btExit.Text = "Выход";
+            this.btExit.UseVisualStyleBackColor = true;
+            this.btExit.Click += new System.EventHandler(this.btExit_Click);
             // 
             // textBox1
             // 
@@ -79,7 +80,7 @@ namespace Durak
             this.BackgroundImage = global::Durak.Properties.Resources.fon_600kh600;
             this.ClientSize = new System.Drawing.Size(588, 592);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btExit);
             this.Controls.Add(this.label1);
             this.Name = "RuleGame";
             this.Text = "Дурак";
@@ -91,7 +92,7 @@ namespace Durak
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btExit;
         private System.Windows.Forms.TextBox textBox1;
     }
 }

@@ -63,6 +63,7 @@ namespace Durak
             this.domainUpDown1.Size = new System.Drawing.Size(120, 29);
             this.domainUpDown1.TabIndex = 1;
             this.domainUpDown1.Text = "domainUpDown1";
+            this.domainUpDown1.SelectedItemChanged += new System.EventHandler(this.domainUpDown1_SelectedItemChanged);
             // 
             // label1
             // 
@@ -88,7 +89,7 @@ namespace Durak
             this.btOK.TabIndex = 3;
             this.btOK.Text = "ОК";
             this.btOK.UseVisualStyleBackColor = true;
-            this.btOK.Click += new System.EventHandler(this.button1_Click);
+            this.btOK.Click += new System.EventHandler(this.btOK_Click);
             // 
             // btCancel
             // 
@@ -102,7 +103,7 @@ namespace Durak
             this.btCancel.TabIndex = 4;
             this.btCancel.Text = "Отмена";
             this.btCancel.UseVisualStyleBackColor = true;
-            this.btCancel.Click += new System.EventHandler(this.button2_Click);
+            this.btCancel.Click += new System.EventHandler(this.btCancel_Click);
             // 
             // checkBox2
             // 
@@ -130,6 +131,7 @@ namespace Durak
             this.checkBox3.TabIndex = 6;
             this.checkBox3.Text = "Все";
             this.checkBox3.UseVisualStyleBackColor = false;
+            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
             // checkBox4
             // 
@@ -143,6 +145,7 @@ namespace Durak
             this.checkBox4.TabIndex = 7;
             this.checkBox4.Text = "36 карт";
             this.checkBox4.UseVisualStyleBackColor = false;
+            this.checkBox4.CheckedChanged += new System.EventHandler(this.checkBox4_CheckedChanged);
             // 
             // checkBox5
             // 
@@ -156,6 +159,7 @@ namespace Durak
             this.checkBox5.TabIndex = 8;
             this.checkBox5.Text = "52 карты";
             this.checkBox5.UseVisualStyleBackColor = false;
+            this.checkBox5.CheckedChanged += new System.EventHandler(this.checkBox5_CheckedChanged);
             // 
             // FParam
             // 

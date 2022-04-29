@@ -17,12 +17,17 @@ namespace Durak
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btOK_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btCancel_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
+
+        private void domainUpDown1_SelectedItemChanged(object sender, EventArgs e)
         {
 
         }
@@ -36,5 +41,22 @@ namespace Durak
         {
 
         }
+
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox5_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }

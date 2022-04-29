@@ -17,6 +17,13 @@ namespace Durak
             InitializeComponent();
         }
 
-        
+        private void btExit_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Вы действительно хотите выйти?", "Сообщение", MessageBoxButtons.YesNo);
+            if ()
+            {
+
+            }
+        }
     }
 }

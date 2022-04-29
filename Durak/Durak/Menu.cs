@@ -19,7 +19,8 @@ namespace Durak
 
         private void btNGame_Click(object sender, EventArgs e)
         {
-
+            Game game = new Game();
+            game.ShowDialog();
         }
 
         private void btResume_Click(object sender, EventArgs e)
@@ -29,8 +30,19 @@ namespace Durak
 
         private void btParam_Click(object sender, EventArgs e)
         {
-
+            FParam fParam = new FParam();
+            fParam.ShowDialog();
         }
 
+        private void btExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btInfo_Click(object sender, EventArgs e)
+        {
+            RuleGame ruleGame = new RuleGame();
+            ruleGame.ShowDialog();
+        }
     }
 }

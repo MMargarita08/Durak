@@ -17,5 +17,9 @@ namespace Durak
             InitializeComponent();
         }
 
+        private void btExit_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

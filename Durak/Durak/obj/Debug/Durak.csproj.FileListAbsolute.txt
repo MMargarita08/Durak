@@ -1,0 +1,13 @@
+C:\Users\user\Desktop\Практика 2021 Матюшкова\игра\Durak\Durak\bin\Debug\Durak.exe.config
+C:\Users\user\Desktop\Практика 2021 Матюшкова\игра\Durak\Durak\bin\Debug\Durak.exe
+C:\Users\user\Desktop\Практика 2021 Матюшкова\игра\Durak\Durak\bin\Debug\Durak.pdb
+C:\Users\user\Desktop\Практика 2021 Матюшкова\игра\Durak\Durak\obj\Debug\Durak.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Практика 2021 Матюшкова\игра\Durak\Durak\obj\Debug\Durak.Menu.resources
+C:\Users\user\Desktop\Практика 2021 Матюшкова\игра\Durak\Durak\obj\Debug\Durak.RuleGame.resources
+C:\Users\user\Desktop\Практика 2021 Матюшкова\игра\Durak\Durak\obj\Debug\Durak.FParam.resources
+C:\Users\user\Desktop\Практика 2021 Матюшкова\игра\Durak\Durak\obj\Debug\Durak.Game.resources
+C:\Users\user\Desktop\Практика 2021 Матюшкова\игра\Durak\Durak\obj\Debug\Durak.Properties.Resources.resources
+C:\Users\user\Desktop\Практика 2021 Матюшкова\игра\Durak\Durak\obj\Debug\Durak.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Практика 2021 Матюшкова\игра\Durak\Durak\obj\Debug\Durak.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Практика 2021 Матюшкова\игра\Durak\Durak\obj\Debug\Durak.exe
+C:\Users\user\Desktop\Практика 2021 Матюшкова\игра\Durak\Durak\obj\Debug\Durak.pdb

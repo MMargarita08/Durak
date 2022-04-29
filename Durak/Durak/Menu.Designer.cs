@@ -97,6 +97,7 @@ namespace Durak
             this.btExit.TabIndex = 3;
             this.btExit.Text = "Выход";
             this.btExit.UseVisualStyleBackColor = false;
+            this.btExit.Click += new System.EventHandler(this.btExit_Click);
             // 
             // label1
             // 
@@ -133,8 +134,9 @@ namespace Durak
             this.btInfo.TabIndex = 6;
             this.btInfo.Text = "Информация";
             this.btInfo.UseVisualStyleBackColor = true;
+            this.btInfo.Click += new System.EventHandler(this.btInfo_Click);
             // 
-            // Form1
+            // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -152,7 +154,7 @@ namespace Durak
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form1";
+            this.Name = "Menu";
             this.Text = "Дурак";
             this.ResumeLayout(false);
             this.PerformLayout();
