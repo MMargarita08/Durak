@@ -20,10 +20,14 @@ namespace Durak
         private void btExit_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Вы действительно хотите выйти?", "Сообщение", MessageBoxButtons.YesNo);
-            if ()
-            {
-
-            }
+            
         }
+
+        private void Game_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }

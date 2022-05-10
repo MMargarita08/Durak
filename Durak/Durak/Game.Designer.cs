@@ -30,88 +30,107 @@ namespace Durak
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Game));
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btByta = new System.Windows.Forms.Button();
+            this.btBeru = new System.Windows.Forms.Button();
             this.btExit = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.flowLayoutPanel1.SuspendLayout();
-            this.tableLayoutPanel1.SuspendLayout();
+            this.lbKoz = new System.Windows.Forms.Label();
+            this.gbIgrok2 = new System.Windows.Forms.GroupBox();
+            this.gbArea = new System.Windows.Forms.GroupBox();
+            this.gbIgrok1 = new System.Windows.Forms.GroupBox();
+            this.gbKozyr = new System.Windows.Forms.GroupBox();
             this.SuspendLayout();
             // 
-            // flowLayoutPanel1
+            // btByta
             // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.flowLayoutPanel1.Controls.Add(this.tableLayoutPanel1);
-            this.flowLayoutPanel1.Controls.Add(this.button1);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(800, 794);
-            this.flowLayoutPanel1.TabIndex = 0;
+            this.btByta.AutoSize = true;
+            this.btByta.BackgroundImage = global::Durak.Properties.Resources._1612703153_8_p_zelenii_fon_poker_13;
+            this.btByta.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btByta.ForeColor = System.Drawing.Color.Salmon;
+            this.btByta.Location = new System.Drawing.Point(12, 401);
+            this.btByta.Name = "btByta";
+            this.btByta.Size = new System.Drawing.Size(126, 55);
+            this.btByta.TabIndex = 4;
+            this.btByta.Text = "Бита";
+            this.btByta.UseVisualStyleBackColor = true;
             // 
-            // tableLayoutPanel1
+            // btBeru
             // 
-            this.tableLayoutPanel1.ColumnCount = 2;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.94217F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 77.05783F));
-            this.tableLayoutPanel1.Controls.Add(this.button2, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.button3, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.btExit, 0, 3);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 3);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 4;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24.79558F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.762931F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 45.1527F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24.28878F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(797, 791);
-            this.tableLayoutPanel1.TabIndex = 0;
-            // 
-            // button2
-            // 
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.ForeColor = System.Drawing.Color.Salmon;
-            this.button2.Location = new System.Drawing.Point(3, 199);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(80, 39);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "Бито";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button3.ForeColor = System.Drawing.Color.Salmon;
-            this.button3.Location = new System.Drawing.Point(3, 244);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(80, 40);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "Беру";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btBeru.AutoSize = true;
+            this.btBeru.BackgroundImage = global::Durak.Properties.Resources._1612703153_8_p_zelenii_fon_poker_13;
+            this.btBeru.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btBeru.ForeColor = System.Drawing.Color.Salmon;
+            this.btBeru.Location = new System.Drawing.Point(12, 462);
+            this.btBeru.Name = "btBeru";
+            this.btBeru.Size = new System.Drawing.Size(126, 55);
+            this.btBeru.TabIndex = 5;
+            this.btBeru.Text = "Беру";
+            this.btBeru.UseVisualStyleBackColor = true;
             // 
             // btExit
             // 
+            this.btExit.AutoSize = true;
             this.btExit.BackgroundImage = global::Durak.Properties.Resources._1612703153_8_p_zelenii_fon_poker_13;
             this.btExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btExit.ForeColor = System.Drawing.Color.Salmon;
-            this.btExit.Location = new System.Drawing.Point(3, 601);
+            this.btExit.Location = new System.Drawing.Point(12, 727);
             this.btExit.Name = "btExit";
-            this.btExit.Size = new System.Drawing.Size(87, 40);
-            this.btExit.TabIndex = 2;
-            this.btExit.Text = "Выход";
+            this.btExit.Size = new System.Drawing.Size(123, 55);
+            this.btExit.TabIndex = 6;
+            this.btExit.Text = "Выйти";
             this.btExit.UseVisualStyleBackColor = true;
-            this.btExit.Click += new System.EventHandler(this.btExit_Click);
             // 
-            // button1
+            // lbKoz
             // 
-            this.button1.Location = new System.Drawing.Point(3, 800);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
+            this.lbKoz.AutoSize = true;
+            this.lbKoz.BackColor = System.Drawing.Color.Transparent;
+            this.lbKoz.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbKoz.ForeColor = System.Drawing.Color.Maroon;
+            this.lbKoz.Location = new System.Drawing.Point(8, 9);
+            this.lbKoz.Name = "lbKoz";
+            this.lbKoz.Size = new System.Drawing.Size(153, 24);
+            this.lbKoz.TabIndex = 7;
+            this.lbKoz.Text = "Козырная карта";
+            // 
+            // gbIgrok2
+            // 
+            this.gbIgrok2.AutoSize = true;
+            this.gbIgrok2.BackColor = System.Drawing.Color.Transparent;
+            this.gbIgrok2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.gbIgrok2.Location = new System.Drawing.Point(183, 12);
+            this.gbIgrok2.Name = "gbIgrok2";
+            this.gbIgrok2.Size = new System.Drawing.Size(605, 202);
+            this.gbIgrok2.TabIndex = 8;
+            this.gbIgrok2.TabStop = false;
+            this.gbIgrok2.Text = "Игрок 2";
+            // 
+            // gbArea
+            // 
+            this.gbArea.BackColor = System.Drawing.Color.Transparent;
+            this.gbArea.Location = new System.Drawing.Point(183, 220);
+            this.gbArea.Name = "gbArea";
+            this.gbArea.Size = new System.Drawing.Size(611, 354);
+            this.gbArea.TabIndex = 9;
+            this.gbArea.TabStop = false;
+            // 
+            // gbIgrok1
+            // 
+            this.gbIgrok1.BackColor = System.Drawing.Color.Transparent;
+            this.gbIgrok1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.gbIgrok1.Location = new System.Drawing.Point(183, 580);
+            this.gbIgrok1.Name = "gbIgrok1";
+            this.gbIgrok1.Size = new System.Drawing.Size(605, 202);
+            this.gbIgrok1.TabIndex = 10;
+            this.gbIgrok1.TabStop = false;
+            this.gbIgrok1.Text = "Игрок 1";
+            // 
+            // gbKozyr
+            // 
+            this.gbKozyr.BackColor = System.Drawing.Color.Transparent;
+            this.gbKozyr.Location = new System.Drawing.Point(12, 36);
+            this.gbKozyr.Name = "gbKozyr";
+            this.gbKozyr.Size = new System.Drawing.Size(149, 178);
+            this.gbKozyr.TabIndex = 11;
+            this.gbKozyr.TabStop = false;
             // 
             // Game
             // 
@@ -120,23 +139,31 @@ namespace Durak
             this.AutoSize = true;
             this.BackgroundImage = global::Durak.Properties.Resources.фон_для_игры_800х800;
             this.ClientSize = new System.Drawing.Size(800, 794);
-            this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.gbKozyr);
+            this.Controls.Add(this.gbIgrok1);
+            this.Controls.Add(this.gbArea);
+            this.Controls.Add(this.gbIgrok2);
+            this.Controls.Add(this.lbKoz);
+            this.Controls.Add(this.btExit);
+            this.Controls.Add(this.btBeru);
+            this.Controls.Add(this.btByta);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Game";
             this.Text = "Дурак";
-            this.flowLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.ResumeLayout(false);
+            this.Load += new System.EventHandler(this.Game_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btByta;
+        private System.Windows.Forms.Button btBeru;
         private System.Windows.Forms.Button btExit;
+        private System.Windows.Forms.Label lbKoz;
+        private System.Windows.Forms.GroupBox gbIgrok2;
+        private System.Windows.Forms.GroupBox gbArea;
+        private System.Windows.Forms.GroupBox gbIgrok1;
+        private System.Windows.Forms.GroupBox gbKozyr;
     }
 }

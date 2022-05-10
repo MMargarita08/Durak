@@ -12,6 +12,9 @@ namespace Durak
 {
     public partial class Menu : Form
     {
+
+        Game game = new Game();
+
         public Menu()
         {
             InitializeComponent();
@@ -19,13 +22,12 @@ namespace Durak
 
         private void btNGame_Click(object sender, EventArgs e)
         {
-            Game game = new Game();
             game.ShowDialog();
         }
 
         private void btResume_Click(object sender, EventArgs e)
         {
-
+            game.ShowDialog();
         }
 
         private void btParam_Click(object sender, EventArgs e)
@@ -43,6 +45,7 @@ namespace Durak
         {
             RuleGame ruleGame = new RuleGame();
             ruleGame.ShowDialog();
+            
         }
     }
 }

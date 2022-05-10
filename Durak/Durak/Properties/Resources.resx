@@ -130,6 +130,15 @@
   <data name="фон для игры 800х800" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\фон для игры 800х800.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="fon_600kh600" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fon_600kh600.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2 черви" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 черви.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3 черви" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 черви.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pik-cards" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pik-cards.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -139,7 +148,163 @@
   <data name="depositphotos_64495789-stock-illustration-poker-background-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\depositphotos_64495789-stock-illustration-poker-background-03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fon_600kh600" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fon_600kh600.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="2 буби" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 буби.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2 вини" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 вини.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2 крести" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 крести.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2 черви1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 черви1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3 буби" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 буби.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3 вини" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 вини.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3 крести" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 крести.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3 черви1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 черви1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4 буби" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 буби.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4 вини" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 вини.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4 крести" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 крести.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4 черви" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 черви.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5 буби" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 буби.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5 вини" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 вини.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5 крести" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 крести.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5 черви" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 черви.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6 буби" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 буби.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6 вини" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 вини.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6 крести" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 крести.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6 черви" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 черви.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7 буби" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 буби.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7 вини" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 вини.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7 крести" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 крести.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7 черви" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 черви.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 буби" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 буби.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 вини" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 вини.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 крести" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 крести.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 черви" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 черви.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9 буби" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 буби.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9 вини" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 вини.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9 крести" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 крести.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9 черви" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 черви.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10 буби" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 буби.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10 вини" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 вини.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10 крести" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 крести.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10 черви" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 черви.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="А буби" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\А буби.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="А вини" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\А вини.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="А крести" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\А крести.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="А черви" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\А черви.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="в буби" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\в буби.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="в вини" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\в вини.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="в крести" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\в крести.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="в черви" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\в черви.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="к буби" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\к буби.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="к вини" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\к вини.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="к крести" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\к крести.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="к черви" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\к черви.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ка буби" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ка буби.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ка вини" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ка вини.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ка крести" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ка крести.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ка черви" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ка черви.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="рубашка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\рубашка.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -52,6 +52,11 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pictures.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Pictures.resx</DependentUpon>
+    </Compile>
     <Compile Include="Rules.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +79,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pictures.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Pictures.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Rules.resx">
       <DependentUpon>Rules.cs</DependentUpon>
@@ -130,6 +139,171 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\fon_600kh600.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2 черви.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3 черви.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2 буби.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2 вини.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2 крести.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2 черви1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3 буби.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3 вини.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3 крести.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3 черви1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4 буби.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4 вини.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4 крести.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4 черви.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 буби.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 вини.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 крести.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 черви.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6 буби.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6 вини.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6 крести.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6 черви.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7 буби.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7 вини.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7 крести.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7 черви.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8 буби.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8 вини.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8 крести.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8 черви.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9 буби.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9 вини.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9 крести.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9 черви.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10 буби.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10 вини.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10 крести.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10 черви.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\А буби.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\А вини.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\А крести.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\А черви.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\в буби.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\в вини.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\в крести.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\в черви.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\к буби.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\к вини.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\к крести.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\к черви.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ка буби.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ка вини.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ка крести.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ка черви.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\рубашка.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

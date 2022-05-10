@@ -31,7 +31,7 @@ namespace Durak
         {
             this.label1 = new System.Windows.Forms.Label();
             this.btExit = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbRules = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -60,17 +60,18 @@ namespace Durak
             this.btExit.UseVisualStyleBackColor = true;
             this.btExit.Click += new System.EventHandler(this.btExit_Click);
             // 
-            // textBox1
+            // tbRules
             // 
-            this.textBox1.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.ForeColor = System.Drawing.Color.Maroon;
-            this.textBox1.Location = new System.Drawing.Point(57, 130);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(478, 343);
-            this.textBox1.TabIndex = 2;
+            this.tbRules.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.tbRules.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tbRules.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tbRules.ForeColor = System.Drawing.Color.Maroon;
+            this.tbRules.Location = new System.Drawing.Point(57, 130);
+            this.tbRules.Multiline = true;
+            this.tbRules.Name = "tbRules";
+            this.tbRules.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.tbRules.Size = new System.Drawing.Size(478, 343);
+            this.tbRules.TabIndex = 2;
             // 
             // RuleGame
             // 
@@ -79,11 +80,12 @@ namespace Durak
             this.AutoSize = true;
             this.BackgroundImage = global::Durak.Properties.Resources.fon_600kh600;
             this.ClientSize = new System.Drawing.Size(588, 592);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbRules);
             this.Controls.Add(this.btExit);
             this.Controls.Add(this.label1);
             this.Name = "RuleGame";
             this.Text = "Дурак";
+            this.Load += new System.EventHandler(this.RuleGame_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -93,6 +95,6 @@ namespace Durak
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btExit;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbRules;
     }
 }
